@@ -17,4 +17,6 @@ class Zombie{
 		void announce(); //publicly annouce the name of the zombie
 };
 
+	Zombie* newZombie(std::string name);
+
 #endif

@@ -11,7 +11,15 @@ Zombie::Zombie(std::string name){
 	#We should a destructor since we have a constructor
 	#The destructor should destroy the object name and cout the
 	destroy message
+	#
 */
 Zombie::~Zombie(){
-	std::cout << RED << this->name << "is destroyed " << RESET << std::endl;
+	std::cout << RED << this->name << " is destroyed " << RESET << std::endl;
+}
+
+/*
+	# announce is just to cout the msg from pdf
+*/
+void Zombie::announce(){
+	std::cout << this->name << ": BraiiiiiiinnnzzzZ..." << std::endl;
 }
