@@ -5,6 +5,7 @@
 // pass as the name to the object name.
 Zombie::Zombie(std::string name){
 	this->name = name;
+	std::cout << GREEN << this->name << " Is created " << RESET << std::endl;
 }
 
 /*

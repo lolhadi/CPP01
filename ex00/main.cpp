@@ -2,10 +2,10 @@
 
 int main(){
 
-
-	Zombie z("Stacky");
-	z.announce();
+	randomChump("RandomStack");
 	Zombie* h = newZombie("Heapster");
 	h->announce();
+	Zombie z("Stacky");
+	z.announce();
 	delete(h);
 }
